@@ -13,6 +13,3 @@ RUN mkdir -p /sbin/.m2/repository
 RUN chown daemon:daemon /sbin/.m2/repository
 # Install docker engine
 RUN apk add --no-cache docker
-
-# drop back to the regular jenkins user - good practice
-USER jenkins
