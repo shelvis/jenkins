@@ -14,3 +14,4 @@ RUN chown daemon:daemon /sbin/.m2/repository
 # Install docker engine
 RUN apk add --no-cache docker
 #Install rsync
+RUN apk add --no-cache rsync
